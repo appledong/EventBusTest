@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingTop="15dp">
+
+    <TextView
+        android:id="@+id/textview_common"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EventBus的基本用法"
+        />
+
+    <TextView
+        android:id="@+id/textview_thread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="EventBus的线程用法"/>
+
+    <TextView
+        android:id="@+id/textview_priority"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="EventBus中的subscribe的优先级"/>
+    <TextView
+        android:id="@+id/textview_sticky"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="EventBus中sticky的使用"/>
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textview_display_priority1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="展示消息内容"/>
+
+    <TextView
+        android:id="@+id/textview_display_priority2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="展示消息内容"/>
+
+    <Button
+        android:id="@+id/button_sendmessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="发送消息"/>
+
+</LinearLayout>
