@@ -1,14 +1,12 @@
 package com.dong.eventbustest.activity;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
 import com.dong.eventbustest.R;
-import com.dong.eventbustest.message.ThreadMessage;
 
-import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
